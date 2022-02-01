@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<center>
+    <div class="alert alert-primary" role="alert">
+        <h1>Your Shortener URL: "127.0.0.1:8000/{{ chars }}"</h1>
+    </div>
+</center>
+<center>
+    <div class="alert alert-primary" role="alert">
+        <h1>Your Original URL: {{ shorten_data.original_url }}</h1>
+    </div>
+</center>
+{% endblock content %}
