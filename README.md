@@ -11,3 +11,9 @@ To start the app run:
   python manage.py runserver.
   
 Open your browser and type 127.0.0.1:8000
+
+
+create a url shortener by typing a full/original domain name.
+
+append the genrated shortener to 127.0.0.1:8000 to be redirected to original domain name.
+  e.g 127.0.0.1:8000/AWIKYT
